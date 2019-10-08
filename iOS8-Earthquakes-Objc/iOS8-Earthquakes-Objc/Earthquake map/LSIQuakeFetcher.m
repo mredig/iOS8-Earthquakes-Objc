@@ -66,6 +66,20 @@ static NSString *baseURLString = @"https://earthquake.usgs.gov/fdsnws/event/1/qu
 
 		NSLog(@"JSON: %@", json);
 
+		//Convert from a dict to a [quake] using nsarray
+
+		NSArray* earthquakeFeatures = json[@"features"];
+		NSMutableArray* quakes = [NSMutableArray array];
+
+		for (NSDictionary* dictionary in earthquakeFeatures) {
+			LSIQuake* quake = [[LSIQuake alloc] initWithDictionary:dictionary];
+
+			if (quake) {
+				[quakes addObject:quake];
+			}
+		}
+
+		completionBlock(quakes, nil);
 
         
     }];
