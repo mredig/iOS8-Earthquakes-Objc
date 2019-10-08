@@ -36,6 +36,7 @@
 
 		dispatch_async(dispatch_get_main_queue(), ^(void){
 //			self.mapView.anno
+			[self.mapView addAnnotations:quakes];
 		});
 	}];
 }
