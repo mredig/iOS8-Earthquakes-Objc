@@ -12,6 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LSIQuake : NSObject
 
+@property double magnitude;
+@property NSString* place;
+@property NSDate* time;
+@property double latitude;
+@property double longitude;
+
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
+
 @end
 
 NS_ASSUME_NONNULL_END
