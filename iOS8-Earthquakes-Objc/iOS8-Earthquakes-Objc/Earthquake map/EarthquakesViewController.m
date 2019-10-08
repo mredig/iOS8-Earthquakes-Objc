@@ -33,6 +33,10 @@
 	[self.quakeFetcher fetchQuakesWithCompletionBlock:^(NSArray *quakes, NSError *error) {
 		NSLog(@"Quakes: %@", quakes);
 		// TODO: MKAnnotation for mapkit view
+
+		dispatch_async(dispatch_get_main_queue(), ^(void){
+//			self.mapView.anno
+		});
 	}];
 }
 

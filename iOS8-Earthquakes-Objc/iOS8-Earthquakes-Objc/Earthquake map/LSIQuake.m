@@ -43,4 +43,12 @@
 	return self;
 }
 
+- (CLLocationCoordinate2D)coordinate {
+	return CLLocationCoordinate2DMake(self.latitude, self.longitude);
+}
+
+- (NSString *)description {
+	return [NSString stringWithFormat:@"Place: %@, magnitude: %f", self.place, self.magnitude];
+}
+
 @end

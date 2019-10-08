@@ -7,10 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MapKit/MapKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LSIQuake : NSObject
+@interface LSIQuake : NSObject <MKAnnotation>
 
 @property double magnitude;
 @property NSString* place;
