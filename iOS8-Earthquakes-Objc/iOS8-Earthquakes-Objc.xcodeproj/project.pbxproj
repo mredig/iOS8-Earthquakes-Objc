@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		33651D78234CEFB900F5D265 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D77234CEFB900F5D265 /* AppDelegate.m */; };
-		33651D7E234CEFB900F5D265 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D7D234CEFB900F5D265 /* ViewController.m */; };
 		33651D81234CEFB900F5D265 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33651D7F234CEFB900F5D265 /* Main.storyboard */; };
 		33651D83234CEFBA00F5D265 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33651D82234CEFBA00F5D265 /* Assets.xcassets */; };
 		33651D86234CEFBA00F5D265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33651D84234CEFBA00F5D265 /* LaunchScreen.storyboard */; };
 		33651D89234CEFBA00F5D265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D88234CEFBA00F5D265 /* main.m */; };
+		33651D92234CF48000F5D265 /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D90234CF48000F5D265 /* EarthquakesViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33651D73234CEFB900F5D265 /* iOS8-Earthquakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-Earthquakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33651D76234CEFB900F5D265 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33651D77234CEFB900F5D265 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		33651D7C234CEFB900F5D265 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		33651D7D234CEFB900F5D265 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		33651D80234CEFB900F5D265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33651D82234CEFBA00F5D265 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33651D85234CEFBA00F5D265 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33651D87234CEFBA00F5D265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		33651D88234CEFBA00F5D265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33651D90234CF48000F5D265 /* EarthquakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
+		33651D91234CF48000F5D265 /* EarthquakesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +58,8 @@
 		33651D75234CEFB900F5D265 /* iOS8-Earthquakes-Objc */ = {
 			isa = PBXGroup;
 			children = (
-				33651D7C234CEFB900F5D265 /* ViewController.h */,
-				33651D7D234CEFB900F5D265 /* ViewController.m */,
+				33651D91234CF48000F5D265 /* EarthquakesViewController.h */,
+				33651D90234CF48000F5D265 /* EarthquakesViewController.m */,
 				33651D8F234CF0DE00F5D265 /* Misc */,
 			);
 			path = "iOS8-Earthquakes-Objc";
@@ -149,9 +149,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33651D7E234CEFB900F5D265 /* ViewController.m in Sources */,
 				33651D78234CEFB900F5D265 /* AppDelegate.m in Sources */,
 				33651D89234CEFBA00F5D265 /* main.m in Sources */,
+				33651D92234CF48000F5D265 /* EarthquakesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
