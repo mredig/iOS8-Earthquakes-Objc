@@ -58,17 +58,25 @@
 		33651D75234CEFB900F5D265 /* iOS8-Earthquakes-Objc */ = {
 			isa = PBXGroup;
 			children = (
-				33651D76234CEFB900F5D265 /* AppDelegate.h */,
-				33651D77234CEFB900F5D265 /* AppDelegate.m */,
 				33651D7C234CEFB900F5D265 /* ViewController.h */,
 				33651D7D234CEFB900F5D265 /* ViewController.m */,
+				33651D8F234CF0DE00F5D265 /* Misc */,
+			);
+			path = "iOS8-Earthquakes-Objc";
+			sourceTree = "<group>";
+		};
+		33651D8F234CF0DE00F5D265 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				33651D76234CEFB900F5D265 /* AppDelegate.h */,
+				33651D77234CEFB900F5D265 /* AppDelegate.m */,
 				33651D7F234CEFB900F5D265 /* Main.storyboard */,
 				33651D82234CEFBA00F5D265 /* Assets.xcassets */,
 				33651D84234CEFBA00F5D265 /* LaunchScreen.storyboard */,
 				33651D87234CEFBA00F5D265 /* Info.plist */,
 				33651D88234CEFBA00F5D265 /* main.m */,
 			);
-			path = "iOS8-Earthquakes-Objc";
+			path = Misc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,7 +293,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
-				INFOPLIST_FILE = "iOS8-Earthquakes-Objc/Info.plist";
+				INFOPLIST_FILE = "iOS8-Earthquakes-Objc/Misc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +311,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L5UZAT7KA9;
-				INFOPLIST_FILE = "iOS8-Earthquakes-Objc/Info.plist";
+				INFOPLIST_FILE = "iOS8-Earthquakes-Objc/Misc/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
