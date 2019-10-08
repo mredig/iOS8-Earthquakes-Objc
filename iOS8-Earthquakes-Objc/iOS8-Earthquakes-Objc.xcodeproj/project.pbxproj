@@ -13,7 +13,20 @@
 		33651D86234CEFBA00F5D265 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33651D84234CEFBA00F5D265 /* LaunchScreen.storyboard */; };
 		33651D89234CEFBA00F5D265 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D88234CEFBA00F5D265 /* main.m */; };
 		33651D92234CF48000F5D265 /* EarthquakesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D90234CF48000F5D265 /* EarthquakesViewController.m */; };
+		33651D9A234CF61700F5D265 /* iOS8_Earthquakes_ObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651D99234CF61700F5D265 /* iOS8_Earthquakes_ObjcTests.m */; };
+		33651DA3234CF64F00F5D265 /* LSIQuakesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651DA2234CF64F00F5D265 /* LSIQuakesTests.m */; };
+		33651DA6234CF70E00F5D265 /* LSIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651DA5234CF70E00F5D265 /* LSIQuake.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33651D9C234CF61700F5D265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33651D6B234CEFB900F5D265 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33651D72234CEFB900F5D265;
+			remoteInfo = "iOS8-Earthquakes-Objc";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		33651D73234CEFB900F5D265 /* iOS8-Earthquakes-Objc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS8-Earthquakes-Objc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,10 +39,23 @@
 		33651D88234CEFBA00F5D265 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33651D90234CF48000F5D265 /* EarthquakesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarthquakesViewController.m; sourceTree = "<group>"; };
 		33651D91234CF48000F5D265 /* EarthquakesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarthquakesViewController.h; sourceTree = "<group>"; };
+		33651D97234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS8-Earthquakes-ObjcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33651D99234CF61700F5D265 /* iOS8_Earthquakes_ObjcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS8_Earthquakes_ObjcTests.m; sourceTree = "<group>"; };
+		33651D9B234CF61700F5D265 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33651DA2234CF64F00F5D265 /* LSIQuakesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuakesTests.m; sourceTree = "<group>"; };
+		33651DA4234CF70E00F5D265 /* LSIQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIQuake.h; sourceTree = "<group>"; };
+		33651DA5234CF70E00F5D265 /* LSIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		33651D70234CEFB900F5D265 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33651D94234CF61700F5D265 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				33651D75234CEFB900F5D265 /* iOS8-Earthquakes-Objc */,
+				33651D98234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests */,
 				33651D74234CEFB900F5D265 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				33651D73234CEFB900F5D265 /* iOS8-Earthquakes-Objc.app */,
+				33651D97234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,8 +86,7 @@
 		33651D75234CEFB900F5D265 /* iOS8-Earthquakes-Objc */ = {
 			isa = PBXGroup;
 			children = (
-				33651D91234CF48000F5D265 /* EarthquakesViewController.h */,
-				33651D90234CF48000F5D265 /* EarthquakesViewController.m */,
+				33651DA7234CF74000F5D265 /* Earthquake map */,
 				33651D8F234CF0DE00F5D265 /* Misc */,
 			);
 			path = "iOS8-Earthquakes-Objc";
@@ -77,6 +104,27 @@
 				33651D88234CEFBA00F5D265 /* main.m */,
 			);
 			path = Misc;
+			sourceTree = "<group>";
+		};
+		33651D98234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests */ = {
+			isa = PBXGroup;
+			children = (
+				33651D99234CF61700F5D265 /* iOS8_Earthquakes_ObjcTests.m */,
+				33651DA2234CF64F00F5D265 /* LSIQuakesTests.m */,
+				33651D9B234CF61700F5D265 /* Info.plist */,
+			);
+			path = "iOS8-Earthquakes-ObjcTests";
+			sourceTree = "<group>";
+		};
+		33651DA7234CF74000F5D265 /* Earthquake map */ = {
+			isa = PBXGroup;
+			children = (
+				33651D91234CF48000F5D265 /* EarthquakesViewController.h */,
+				33651D90234CF48000F5D265 /* EarthquakesViewController.m */,
+				33651DA4234CF70E00F5D265 /* LSIQuake.h */,
+				33651DA5234CF70E00F5D265 /* LSIQuake.m */,
+			);
+			path = "Earthquake map";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,17 +147,40 @@
 			productReference = 33651D73234CEFB900F5D265 /* iOS8-Earthquakes-Objc.app */;
 			productType = "com.apple.product-type.application";
 		};
+		33651D96234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33651D9E234CF61700F5D265 /* Build configuration list for PBXNativeTarget "iOS8-Earthquakes-ObjcTests" */;
+			buildPhases = (
+				33651D93234CF61700F5D265 /* Sources */,
+				33651D94234CF61700F5D265 /* Frameworks */,
+				33651D95234CF61700F5D265 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33651D9D234CF61700F5D265 /* PBXTargetDependency */,
+			);
+			name = "iOS8-Earthquakes-ObjcTests";
+			productName = "iOS8-Earthquakes-ObjcTests";
+			productReference = 33651D97234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		33651D6B234CEFB900F5D265 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LSI;
 				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "Red_Egg Productions";
 				TargetAttributes = {
 					33651D72234CEFB900F5D265 = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					33651D96234CF61700F5D265 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 33651D72234CEFB900F5D265;
 					};
 				};
 			};
@@ -127,6 +198,7 @@
 			projectRoot = "";
 			targets = (
 				33651D72234CEFB900F5D265 /* iOS8-Earthquakes-Objc */,
+				33651D96234CF61700F5D265 /* iOS8-Earthquakes-ObjcTests */,
 			);
 		};
 /* End PBXProject section */
@@ -142,6 +214,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33651D95234CF61700F5D265 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -149,13 +228,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33651DA6234CF70E00F5D265 /* LSIQuake.m in Sources */,
 				33651D78234CEFB900F5D265 /* AppDelegate.m in Sources */,
 				33651D89234CEFBA00F5D265 /* main.m in Sources */,
 				33651D92234CF48000F5D265 /* EarthquakesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		33651D93234CF61700F5D265 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33651DA3234CF64F00F5D265 /* LSIQuakesTests.m in Sources */,
+				33651D9A234CF61700F5D265 /* iOS8_Earthquakes_ObjcTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33651D9D234CF61700F5D265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33651D72234CEFB900F5D265 /* iOS8-Earthquakes-Objc */;
+			targetProxy = 33651D9C234CF61700F5D265 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		33651D7F234CEFB900F5D265 /* Main.storyboard */ = {
@@ -323,6 +420,44 @@
 			};
 			name = Release;
 		};
+		33651D9F234CF61700F5D265 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5UZAT7KA9;
+				INFOPLIST_FILE = "iOS8-Earthquakes-ObjcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.iOS8-Earthquakes-ObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-Earthquakes-Objc.app/iOS8-Earthquakes-Objc";
+			};
+			name = Debug;
+		};
+		33651DA0234CF61700F5D265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L5UZAT7KA9;
+				INFOPLIST_FILE = "iOS8-Earthquakes-ObjcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redeggproductions.iOS8-Earthquakes-ObjcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS8-Earthquakes-Objc.app/iOS8-Earthquakes-Objc";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -340,6 +475,15 @@
 			buildConfigurations = (
 				33651D8D234CEFBA00F5D265 /* Debug */,
 				33651D8E234CEFBA00F5D265 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33651D9E234CF61700F5D265 /* Build configuration list for PBXNativeTarget "iOS8-Earthquakes-ObjcTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33651D9F234CF61700F5D265 /* Debug */,
+				33651DA0234CF61700F5D265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
