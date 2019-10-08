@@ -19,6 +19,7 @@
 		33651DAA234CF7F300F5D265 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33651DA9234CF7F300F5D265 /* MapKit.framework */; };
 		33651DAD234CFB2E00F5D265 /* QuakeResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 33651DAB234CFB2E00F5D265 /* QuakeResponse.json */; };
 		33651DAF234CFE5000F5D265 /* Quake.json in Resources */ = {isa = PBXBuildFile; fileRef = 33651DAE234CFE5000F5D265 /* Quake.json */; };
+		33651DB2234D0D3100F5D265 /* LSIQuakeFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 33651DB0234D0D3100F5D265 /* LSIQuakeFetcher.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		33651DAB234CFB2E00F5D265 /* QuakeResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuakeResponse.json; sourceTree = "<group>"; };
 		33651DAC234CFB2E00F5D265 /* LSIFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIFileHelper.h; sourceTree = "<group>"; };
 		33651DAE234CFE5000F5D265 /* Quake.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Quake.json; sourceTree = "<group>"; };
+		33651DB0234D0D3100F5D265 /* LSIQuakeFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIQuakeFetcher.m; sourceTree = "<group>"; };
+		33651DB1234D0D3100F5D265 /* LSIQuakeFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIQuakeFetcher.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				33651D90234CF48000F5D265 /* EarthquakesViewController.m */,
 				33651DA4234CF70E00F5D265 /* LSIQuake.h */,
 				33651DA5234CF70E00F5D265 /* LSIQuake.m */,
+				33651DB1234D0D3100F5D265 /* LSIQuakeFetcher.h */,
+				33651DB0234D0D3100F5D265 /* LSIQuakeFetcher.m */,
 			);
 			path = "Earthquake map";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				33651DA6234CF70E00F5D265 /* LSIQuake.m in Sources */,
 				33651D78234CEFB900F5D265 /* AppDelegate.m in Sources */,
 				33651D89234CEFBA00F5D265 /* main.m in Sources */,
+				33651DB2234D0D3100F5D265 /* LSIQuakeFetcher.m in Sources */,
 				33651D92234CF48000F5D265 /* EarthquakesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

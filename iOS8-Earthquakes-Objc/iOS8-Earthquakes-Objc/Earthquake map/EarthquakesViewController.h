@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
+@class LSIQuakeFetcher;
+
 
 @interface EarthquakesViewController : UIViewController
 
-@end
+@property LSIQuakeFetcher* quakeFetcher;
 
-NS_ASSUME_NONNULL_END
+@end
